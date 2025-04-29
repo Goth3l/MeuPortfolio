@@ -1,0 +1,83 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0);
+ }
+
+.logo {
+  height: 30px; 
+  width: auto;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Ajuste conforme seu design */
+  padding: 10px 20px;
+}
+
+.logo {
+  height: 50px; /* Ajuste conforme necessário */
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.page-container {
+  width: 100%;
+  max-width: 800px; /* Ajuste conforme necessário */
+  overflow: hidden; /* Evita que o conteúdo saia da área visível */
+  height: auto; /* Permite que a altura se ajuste ao conteúdo */
+  transition: transform 0.5s ease; /* Animação suave */
+}
+
+.page-wrapper {
+  width: 100%;
+  min-height: 400px; /* Ajuste conforme o conteúdo das suas páginas */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estado inicial: página visível */
+.page-container {
+  transform: translateX(0);
+}
+
+/* Slide para a esquerda (página atual sai para a esquerda) */
+.page-container.left {
+  transform: translateX(-100%);
+}
+
+/* Slide para a direita (página atual sai para a direita) */
+.page-container.right {
+  transform: translateX(100%);
+}

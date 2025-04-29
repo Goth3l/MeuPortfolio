@@ -1,0 +1,18 @@
+.navbar {
+  display: flex;
+  gap: 20px;
+  background-color: rgba(240, 255, 255, 0);
+}
+
+.nav-item {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #FF50A2;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+  color: #D50868;
+}

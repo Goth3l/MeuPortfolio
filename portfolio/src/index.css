@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;700&family=Julius+Sans+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Julius Sans One', sans-serif;
+  background-image: url('./assets/images/Wallpaper.png');
+  background-size: 100% ;
+  background-position: center;
+  color: #333;
+}

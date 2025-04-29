@@ -1,0 +1,79 @@
+.work-card {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 700px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.work-title {
+  font-family: 'Kaisei Tokumin', serif;
+  font-size: 2rem;
+  color: #ff50a2;
+  margin-bottom: 20px;
+}
+
+.project-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.project-item {
+  background: #ffe6f2;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.project-item h3 {
+  font-family: 'Kaisei Tokumin', serif;
+  font-size: 15px;
+  color: #d50868;
+}
+
+.project-item p {
+  color: #666;
+}
+
+.project-title:hover {
+  color: #a4044f;
+  transform: scale(1.01);
+}
+
+.modal-content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 7rem;
+}
+
+.fullscreen-image {
+  max-width: 90%;
+  max-height: 65%;
+  background-color: #ffe6f2;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.close-button {
+  position: absolute;
+  font-size: 32px;
+  background: #ffffff00;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  color:#ff50a2;
+  cursor: pointer;
+}

@@ -1,0 +1,73 @@
+.info-card {
+  background:rgb(255, 255, 255, 0.5);
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 700px;
+  height: 400px;
+  margin: 0 auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.info-title {
+  font-family: 'Kaisei Tokumin', serif;
+  font-size: 2rem;
+  color: #FF50A2;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.description {
+  font-family:  'Kaisei Tokumin', serif;
+  font-size: 13px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.Carct-list {
+  text-align: left;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.Carct-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.Carct-list li {
+  font-family: 'Kaisei Tokumin', serif;
+  font-size: 12px;
+  color: #555;
+  margin: 10px 0;
+  position: relative;
+  padding-left: 20px;
+}
+
+.Carct-list li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #fb5dac;
+  font-size: 18px;
+}
+
+@media (max-width: 600px) {
+  .info-card {
+    padding: 20px;
+  }
+
+  .info-title {
+    font-size: 28px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .Carct-list li {
+    font-size: 12px;
+  }
+}
